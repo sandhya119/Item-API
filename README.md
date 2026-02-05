@@ -21,8 +21,15 @@ II. Endpoints:
 }
 
 2. GET /items/{id} –> Get item by ID
-{
-  "id": 1,
-  "name": "Mobile",
-  "description": "Smartphone device"
-}
+
+3. 3. GET /items –> Get all items
+
+III. Testing the API:
+
+I used Postman to test all API endpoints and validate the input data.
+
+1. POST /items –> Send JSON in the body to add items.
+
+2. GET /items –> Retrieve all items.
+
+3. GET /items/{id} –> Retrieve a single item by its ID.
